@@ -309,7 +309,7 @@
         </Atributo>
         <Atributo nome="horaEntradaTarde" id="27">
           <Left Valor="634"/>
-          <Top Valor="281"/>
+          <Top Valor="239"/>
           <Width Valor="130"/>
           <Height Valor="16"/>
           <Fonte default="-1"/>
@@ -372,8 +372,8 @@
           </Ligacoes>
         </Atributo>
         <Atributo nome="minutosTrabalhados" id="33">
-          <Left Valor="633"/>
-          <Top Valor="239"/>
+          <Left Valor="634"/>
+          <Top Valor="260"/>
           <Width Valor="143"/>
           <Height Valor="16"/>
           <Fonte default="-1"/>
@@ -403,10 +403,10 @@
             </Ligacao>
           </Ligacoes>
         </Atributo>
-        <Atributo nome="minutosExtra" id="36">
-          <Left Valor="634"/>
-          <Top Valor="260"/>
-          <Width Valor="103"/>
+        <Atributo nome="minutosTempoExtra" id="36">
+          <Left Valor="635"/>
+          <Top Valor="281"/>
+          <Width Valor="142"/>
           <Height Valor="16"/>
           <Fonte default="-1"/>
           <Atributos/>
@@ -436,7 +436,7 @@
           </Ligacoes>
         </Atributo>
         <Atributo nome="idPessoa" id="39">
-          <Left Valor="633"/>
+          <Left Valor="634"/>
           <Top Valor="323"/>
           <Width Valor="77"/>
           <Height Valor="16"/>
@@ -468,7 +468,7 @@
           </Ligacoes>
         </Atributo>
         <Atributo nome="flagHorasNormais" id="55">
-          <Left Valor="634"/>
+          <Left Valor="635"/>
           <Top Valor="302"/>
           <Width Valor="127"/>
           <Height Valor="16"/>
@@ -500,7 +500,7 @@
           </Ligacoes>
         </Atributo>
         <Atributo nome="observacao" id="58">
-          <Left Valor="634"/>
+          <Left Valor="635"/>
           <Top Valor="344"/>
           <Width Valor="93"/>
           <Height Valor="16"/>
