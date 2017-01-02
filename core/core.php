@@ -16,7 +16,7 @@ class core{
 			$url = explode('/', $url);
 
 			$controller = $this->verificarArray($url,0) ? $this->verificarArray($url,0).'Controller' : 'homeController';
-			$action = $this->verificarArray($url,1)) ? $this->verificarArray($url,1) : 'index';
+			$action = $this->verificarArray($url,1) ? $this->verificarArray($url,1) : 'index';
 
 			if($this->verificarArray($url,2)){
 				unset($url[0]);
@@ -29,16 +29,17 @@ class core{
 			$action = 'index';
 		}
 		
-		if($this->verificarController($controller)){
+		if(!$this->verificarController($controller)){
 			// Invocar 404.html
 			exit;
 		}
 		$_controller = new $controller;
 
-		if($this->verificarAction($_controller, $action)){
+		if(!$this->verificarAction($_controller, $action)){
 			// Invocar 404.html
 			exit;
 		}
+
 
 		call_user_func_array(array($_controller, $action), $params);
 	} // fim processarURL();
