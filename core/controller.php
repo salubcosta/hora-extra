@@ -3,7 +3,7 @@
 class controller{
 
 	public function carregarTemplate($view, $dados){
-		include DIRETORIO.'/template.php';
+		include DIRETORIO.'/views/template.php';
 	}
 
 	public function carregarView($view, $dados){
