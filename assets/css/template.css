@@ -1,0 +1,46 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Verdana;
+	background-color: #c9c9c9;
+}
+
+.formulario{
+	margin: 40px auto;
+	padding: 20px;
+	width: 500px;
+	border: 5px solid #e8e8e8;
+	border-radius: 10px;
+}
+
+.input{
+	width: 95%;
+	height: 30px;
+	border: 5px solid #e8e8e8;
+	border-radius: 10px;	
+}
+
+
+
+input, button, select{
+	width: 200px;
+	height: 30px;
+	border: 5px solid #e8e8e8;
+	border-radius: 10px;	
+}
+select{
+	display: block;
+	margin: auto;
+	height: 40px;
+}
+option{
+	margin: 5px;
+}
+
+button{
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: 60px;
+	background: #b8d3f9;
+}
