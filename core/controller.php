@@ -2,6 +2,12 @@
 
 class controller{
 
+	public function __construct(){
+		if(!isset($_SESSION['id'])){
+			$this->carregarTemplate('logout',[]);
+		}
+	}
+
 	public function carregarTemplate($view, $dados){
 		include DIRETORIO.'/views/template.php';
 	}

@@ -11,6 +11,7 @@ body{
 	width: 500px;
 	border: 5px solid #e8e8e8;
 	border-radius: 10px;
+	text-align: center;
 }
 
 .input{
@@ -20,7 +21,21 @@ body{
 	border-radius: 10px;	
 }
 
+.topo{
+	max-width: 980px;
+	height: 250px;
+	margin: auto;
+	border: 5px solid #fff;
+	border-radius: 5px;
+	background-image: url('http://localhost:8080/projetos_github/hora-extra/assets/imagens/banner.jpg');
+  	background-position: center center;
+}
 
+.menu{
+	margin-top: 20px;
+	text-align: center;
+	padding-top: 180px;
+}
 
 input, button, select{
 	width: 200px;
@@ -43,4 +58,29 @@ button{
 	width: 80%;
 	height: 60px;
 	background: #b8d3f9;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	height: 50px;
+}
+
+li{
+	line-height: 50px;
+	list-style: none;
+	display: inline;
+	margin: 10px;
+	color: #434359;
+	
+}
+
+li:hover{
+	color: #e1e1f4;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+
 }

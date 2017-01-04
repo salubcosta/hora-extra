@@ -1,11 +1,11 @@
 <?php
 require_once 'environment.php';
 
-if(ENVIRONMENT == 'developmet'){
+if(ENVIRONMENT == 'development'){
 	define('HOST','localhost');
 	define('DBNAME','dbhoraextra');
 	define('DBUSER','root');
-	define('DBPASS','root');
+	define('DBPASS','');
 }else{
 	define('HOST','');
 	define('DBNAME','');
