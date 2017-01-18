@@ -77,10 +77,21 @@ li{
 }
 
 li:hover{
-	color: #e1e1f4;
+	color: #996666; /*e1e1f4;*/
 	cursor: pointer;
 }
 a{
 	text-decoration: none;
 
+}
+
+.container{
+	max-width: 960px;
+	min-height: 400px;
+	background-color: #ededed;
+	margin: auto;
+	margin-top: 5px;
+	border: 5px solid #fff;
+	border-radius: 5px;
+	padding: 10px;
 }
