@@ -3,7 +3,7 @@
 class controller{
 
 	public function __construct(){
-		if(!isset($_SESSION['id'])){
+		if(!isset($_SESSION['usuario'])){
 			$this->carregarTemplate('logout',[]);
 		}
 	}
