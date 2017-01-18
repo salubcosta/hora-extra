@@ -16,6 +16,6 @@
 
 <?php
 
-if(isset($usuario['id'])){
+if(isset($usuario['usuario'])){
 	header('Location: home');
 }
