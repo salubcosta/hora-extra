@@ -11,7 +11,7 @@
 	<div class="menu">
 		<ul>
 			<a href="home"><li>Home</li></a>
-			<a href="#"><li>Horas trabalhadas</li></a>
+			<a href="#"><li>Ponto</li></a>
 			<a href="#"><li>Horas devedoras</li></a>
 			<a href="#"><li>Verificar horas-extras</li></a>
 			<a href="#"><li>Meus Dados</li></a>
@@ -19,9 +19,10 @@
 		</ul>
 	</div>
 </div>
-
+<div class="container">
 <?php
 	$this->carregarView($view, $dados);
 ?>
+</div>
 </body>
 </html>
