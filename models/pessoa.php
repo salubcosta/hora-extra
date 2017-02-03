@@ -21,11 +21,11 @@ class Pessoa extends model{
 		ini_set('error_reporting',E_ALL);
 		ini_set('display_errors',1);
 
-		$ldapconfig['host']="10.98.0.5";
+		$ldapconfig['host']=""; //Ip do AD
 		$ldapconfig['port']="389";
-		$domain="EBSERHNET";
+		$domain=""; //Nome do domínio
 
-		$grupo='ou=hdt,ou=ebserh,dc=ebserhnet,dc=ebserh,dc=gov,dc=br';
+		$grupo='ou=INFORME,ou=INFORME,dc=INFORME,dc=INFORME,dc=INFORME,dc=INFORME'; //Informações do Domínio
 		$filtro="(&(objectCategory=user)(memberOf=DN DO GRUPO))";
 
 		$ds=ldap_connect($ldapconfig['host'], $ldapconfig['port']);
